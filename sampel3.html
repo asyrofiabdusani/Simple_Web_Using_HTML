@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+    <h2>Form Pendafataran</h2>
+    
+    <!-- used to create form` -->
+    <form action="">
+
+        <!-- using table in form, so the form can looks more catchy -->
+        <table cellpadding="5">
+            <!-- label is used to show the label for the input -->
+            <!-- input is used to create editbox, radio, checkbox, etc in form -->
+            <tr>
+                <td><label for="nama">Nama</label></td>
+                <td><label for="">:</label></td>
+                <td colspan="4"><input type="text" id="nama"></td>
+            </tr>
+            <tr>
+                <td><label for="nama">Kelamin</label></td>
+                <td><label for="">:</label></td>
+                <td><input type="radio" id="pria" name="kelamin"></td>
+                <td><label for="pria">Pria</label></td>
+                <td><input type="radio" id="wanita" name="kelamin"></td>
+                <td><label for="pria">Wanita</label></td>
+            </tr>
+            <tr>
+                <td><label for="warga">Kewarganegaraan</label></td>
+                <td><label for="">:</label></td>
+                <td colspan="4"><select name="" id="warga">
+                    <option value="">WNI</option>
+                    <option value="">WNA</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td> </td>
+            </tr>
+            <tr>
+                <td> </td>
+            </tr>
+            <tr>
+                <td> </td>
+            </tr>
+            <tr>
+                <td colspan="3"><button>Kirim</button></td>
+                <td colspan="3"><button>Batalkan</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
